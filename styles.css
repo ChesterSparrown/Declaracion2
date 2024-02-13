@@ -1,0 +1,58 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('images/imagen_romantica.webp');
+    background-size: cover;
+}
+
+.texto-central {
+    text-align: center;
+    color: white;
+}
+
+.texto-central h1 {
+    font-size: 5em;
+}
+
+.opciones {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.opciones button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 2em;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.mensaje-oculto {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.mensaje-oculto p {
+    color: white;
+    font-size: 1.5em;
+}
+
